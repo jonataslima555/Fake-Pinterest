@@ -14,5 +14,3 @@ from flask_bcrypt import Bcrypt
 APP = Flask(__name__)
 APP.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///data.db'
 APP.config["SECRET_KEY"] = DB_PASSWORD
-
-print(DB_PASSWORD)
